@@ -11,6 +11,8 @@
   yarn start
 ```
 
+Server running at localhost:5000
+
 ### Endpoints
 
 #### Get All Items
@@ -58,6 +60,12 @@
   DELETE /crons/:id
 ```
 
+#### Test CronJob
+
+```http
+  ALL /test
+```
+
 ## Frontend
 
 ### Installation
@@ -67,3 +75,5 @@
   yarn install
   yarn start
 ```
+
+Server running at localhost:3000
